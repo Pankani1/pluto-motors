@@ -1,0 +1,142 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Header Styles */
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .header .logo i {
+    margin-right: 0.5rem;
+  }
+  
+  /* Navigation Styles */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    margin-right: 1rem;
+    transition: color 0.2s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ccc;
+  }
+  
+  /* Icons Styles */
+  
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icons div {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .icons div:hover {
+    color: #ccc;
+  }
+  
+  /* Search Form Styles */
+  
+  .search-form {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #337ab7;
+    padding: 1rem;
+    display: none;
+  }
+  
+  .search-form input[type="search"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+  }
+  
+  .search-form label {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar a {
+      margin-bottom: 0.5rem;
+    }
+  
+    .icons {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .icons div {
+      margin-bottom: 0.5rem;
+    }
+  }

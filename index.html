@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <header class="header">
+      <a href="/" class="logo">
+        <img src="image/logo.png" alt="Pluto Rentals Logo" class="logo-image" />
+        Pluto Rentals
+      </a>
+
+      <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Vehicles</a>
+        <a href="./categories.html">Categories</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="icon-item" id="home-btn">
+          <i class="fas fa-home"></i>
+          <span class="header-span"> <a href="./index.html">Home</a></span>
+        </div>
+        <div class="icon-item" id="search-btn">
+          <i class="fas fa-search"></i>
+          <span class="header-span">Search</span>
+        </div>
+        <div class="icon-item" id="cart-btn">
+          <i class="fas fa-car"></i>
+          <span class="header-span">Cars</span>
+        </div>
+        <div class="icon-item" id="login-btn">
+          <i class="fas fa-user"></i>
+          <span class="header-span"> <a href="./index.html">Login</a></span>
+        </div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <main>
+      <div class="home"></div>
+
+      <!-- welcome message-->
+      <div class="welcome">
+        <h1>Welcome to Pluto</h1>
+        <h1>Rentals!</h1>
+
+        <h3>
+          We’re thrilled to have you here. Whether you're looking for the
+          perfect vehicle to suit your needs or exploring our wide range of
+          categories, we are dedicated to providing you with top-notch service
+          and quality rentals. Explore our site to discover the latest in luxury
+          and comfort, all at competitive prices. At Pluto Rentals, your journey
+          begins with us. Let’s get you on the road in style!
+        </h3>
+      </div>
+
+      <!-- Carousel -->
+      <div id="slide" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#slide"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slide"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slide"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slide"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slide"
+            data-bs-slide-to="4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slide"
+            data-bs-slide-to="5"
+          ></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/Benz.jpg" alt="Benz" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/BMW..jpg" alt="BMW" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/blog-2.jpg" alt="BMW" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/blog-3.jpg" alt="BMW" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/product-1.png" alt="BMW" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/blog-1.jpg" alt="oldtimer" class="d-block w-100" />
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#slide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#slide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <section>
+        <form action="post">
+          <div class="box">
+            <h3>Newsletter</h3>
+            <p>Subscribe for the latest updates</p>
+          </div>
+          <input class="email" name="email" placeholder="Your Email" required />
+          <input type="submit" class="button" value="Subscribe" />
+        </form>
+      </section>
+    </main>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+    <footer class="footer">
+      <!--footer section starts here..-->
+
+      <section class="footer-content">
+        <div class="box-container">
+          <div class="box">
+            <a href="/" class="logo">
+              <img
+                src="image/logo.png"
+                alt="Pluto Rentals Logo"
+                class="logo-image"
+              />
+              Pluto Rentals
+            </a>
+          </div>
+
+          <div class="box">
+            <h3>Contact info</h3>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a
+                href="https://www.instagram.com/pankani_/"
+                class="fab fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/samuel-pankani-55a735110/"
+                class="fab fa-linkedin"
+              ></a>
+              <a href="https://github.com/Pankani1" class="fab fa-github"></a>
+              <br /><br />
+              <a
+                href="https://www.google.com/maps/place/Accra/@5.5912087,-0.1797294,12z/data=!4m15!1m8!3m7!1s0xfdf9084b2b7a773:0xbed14ed8650e2dd3!2sAccra!3b1!8m2!3d5.5592846!4d-0.1974306!16zL20vMGZueWM!3m5!1s0xfdf9084b2b7a773:0xbed14ed8650e2dd3!8m2!3d5.5592846!4d-0.1974306!16zL20vMGZueWM?entry=ttu&g_ep=EgoyMDI0MDkwMi4wIKXMDSoASAFQAw%3D%3D"
+                class="links" target="_blank"
+              >
+                <i class="fas fa-map-marker-alt"></i> Accra, Ghana
+              </a>
+            </div>
+          </div>
+
+          <div class="box">
+            <h3>Quick Links</h3>
+            <a href="./index.html" class="links">
+              <i class="fas fa-arrow-right"></i> Home
+            </a>
+            <a href="#" class="links">
+              <i class="fas fa-arrow-right"></i> Vehicles
+            </a>
+            <a href="./categories.html" class="links">
+              <i class="fas fa-arrow-right"></i> Categories
+            </a>
+          </div>
+
+          <div class="box">
+            <p class="fa-copyright">
+              &copy; 2023 Pluto Rentals. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--footer section ends here..-->
+    </footer>
+  </body>
+</html>
