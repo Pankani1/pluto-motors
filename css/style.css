@@ -560,7 +560,7 @@ section {
   color: var(--black);
   text-align: center;
   padding: 10px 5px;
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
