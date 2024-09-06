@@ -160,7 +160,7 @@ main {
 .header .icons div {
   height: 3.5rem;
   width: 4.5rem;
-  line-height: 4.5rem;
+  line-height: 2.5rem;
   border-radius: 0.5rem;
   background: #eee;
   color: var(--blue);
