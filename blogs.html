@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs - Pluto Motors</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <header class="header">
+      <a href="/" class="logo">
+        <img src="image/logo.png" alt="Pluto Motors Logo" class="logo-image" />
+        Pluto Motors
+      </a>
+
+      <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./features.html">Features</a>
+        <a href="#products">Vehicles</a>
+        <a href="./categories.html">Categories</a>
+        <a href="./review.html">Review</a>
+        <a href="./blogs.html">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="icon-item" id="home-btn">
+          <i class="fas fa-home"></i>
+          <span class="header-span"> <a href="./index.html">Home</a></span>
+        </div>
+        <div class="icon-item" id="search-btn">
+          <i class="fas fa-search"></i>
+          <span class="header-span">Search</span>
+        </div>
+        <div class="icon-item" id="cart-btn">
+          <i class="fas fa-car"></i>
+          <span class="header-span">Cars</span>
+        </div>
+        <div class="icon-item" id="login-btn">
+          <i class="fas fa-user"></i>
+          <span class="header-span"> <a href="./index.html">Login</a></span>
+        </div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <main>
+      <section class="blogs-section">
+        <h1 class="heading">Latest <span>Blogs</span></h1>
+        <div class="blog-grid">
+          <div class="blog-box">
+            <img
+              src="image/hyundai-ioniq-7-concept electric.jpg"
+              alt="Blog 1"
+              class="blog-img"
+            />
+            <h3>The Future of Electric Vehicles</h3>
+            <p>
+              Learn how electric vehicles are revolutionizing the car industry
+              and what to expect in the coming years.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="blog-box">
+            <img
+              src="image/2025-nissan-kicks-front-quarter.avif"
+              alt="Blog 2"
+              class="blog-img"
+            />
+            <h3>Top 10 SUVs for 2024</h3>
+            <p>
+              Check out our list of the best SUVs available this year, combining
+              style, performance, and value.
+            </p>
+            <!-- SUV 1 -->
+
+            <!--<div class="suv-details">
+                <h2>2024 Mazda CX-5</h2>
+                <p class="suv-description">
+                    The 2024 Mazda CX-5 offers a competent and enjoyable driving
+                    experience. It's one of the most competitive offerings in its class.
+                </p>
+                <div class="suv-features">
+                    <p>Score: <strong>9.2</strong> <span class="tooltip" title="Based on expert reviews and ratings.">ℹ️</span></p>
+                    <p>MSRP: <strong>$29,300 – $40,600</strong></p>
+                    <p>MPG: <strong>22-26 City / 27-31 Hwy</strong></p>
+                </div>
+                <button class="price-btn">Find Best Price</button>
+            </div> -->
+
+            <div class="suv-item">
+              <div class="suv-rank">#1</div>
+              <img
+                src="image/mazda-cx5.jpg"
+                alt="2024 Mazda CX-5"
+                class="suv-photo"
+              />
+              <div class="suv-details">
+                <h2>2024 Mazda CX-5</h2>
+                <p class="suv-description">
+                  The 2024 Mazda CX-5 offers a competent and enjoyable driving
+                  experience. It's one of the most competitive offerings in its
+                  class.
+                </p>
+                <div class="suv-features">
+                  <p>Score: <strong>9.2</strong></p>
+                  <p>MSRP: <strong>$29,300 – $40,600</strong></p>
+                  <p>MPG: <strong>22-26 City / 27-31 Hwy</strong></p>
+                </div>
+                <button class="price-btn">Find Best Price</button>
+              </div>
+            </div>
+
+            <!-- SUV 2 -->
+            <div class="suv-item">
+              <div class="suv-rank">#2</div>
+              <img
+                src="image/2024 Hyundai Tucson.webp"
+                alt="2024 Hyundai Tucson"
+                class="suv-photo"
+              />
+              <div class="suv-details">
+                <h2>2024 Hyundai Tucson</h2>
+                <p class="suv-description">
+                  The Tucson offers a cushy ride, a refined interior, and
+                  tech-packed features. A top contender for families.
+                </p>
+                <div class="suv-features">
+                  <p>Score: <strong>9.1</strong></p>
+                  <p>MSRP: <strong>$27,500 – $38,260</strong></p>
+                  <p>MPG: <strong>23-25 City / 29-32 Hwy</strong></p>
+                </div>
+                <button class="price-btn">Find Best Price</button>
+              </div>
+            </div>
+            <!-- SUV 3 -->
+            <div class="suv-item">
+              <div class="suv-rank">#3</div>
+              <img
+                src="image/2025 Honda CR-V.jpg"
+                alt="2025 Honda CR-V"
+                class="suv-photo"
+              />
+              <div class="suv-details">
+                <h2>2025 Honda CR-V</h2>
+                <p class="suv-description">
+                  The 2025 Honda CR-V remains a practical mainstream SUV that
+                  excels at transporting both passengers and cargo in comfort
+                  and with ease.
+                </p>
+                <div class="suv-features">
+                  <p>Score: <strong>8.9</strong></p>
+                  <p>MSRP: <strong>$30,100 – $36,500</strong></p>
+                  <p>MPG: <strong>26-28 City / 31-34 Hwy</strong></p>
+                </div>
+                <button class="price-btn">Find Best Price</button>
+              </div>
+            </div>
+
+            <!-- SUV 4 -->
+            <div class="suv-item">
+              <div class="suv-rank">#4</div>
+              <img
+                src="image/2024 Ford Bronco Sport.jpg"
+                alt="2024 Ford Bronco Sport"
+                class="suv-photo"
+              />
+              <div class="suv-details">
+                <h2>2024 Ford Bronco Sport</h2>
+                <p class="suv-description">
+                  The 2024 Ford Bronco Sport seeks to fill a relatively narrow
+                  niche as a small SUV with big off-road chops. This is just as
+                  apparent understatement.
+                </p>
+                <div class="suv-features">
+                  <p>Score: <strong>8.8</strong></p>
+                  <p>MSRP: <strong>$29,795 – $38,390</strong></p>
+                  <p>MPG: <strong>21-25 City / 26-29 Hwy </strong></p>
+                </div>
+                <button class="price-btn">Find Best Price</button>
+              </div>
+            </div>
+            <!-- SUV 3 -->
+            <div class="suv-item">
+              <div class="suv-rank">#5</div>
+              <img
+                src="image/2025 Kia Sportage.jpeg"
+                alt="2025 Kia Sportage"
+                class="suv-photo"
+              />
+              <div class="suv-details">
+                <h2>2025 Kia Sportage</h2>
+                <p class="suv-description">
+                  The 2025 Kia Sportage impresses thanks to an airy and upmarket
+                  cabin, plenty of cargo space and solid driving dynamics.
+                </p>
+                <div class="suv-features">
+                  <p>Score: <strong>8.7</strong></p>
+                  <p>MSRP: <strong>$27,190 - $38,090 </strong></p>
+                  <p>MPG: <strong>23-25 City / 26-33 Hwy</strong></p>
+                </div>
+                <button class="price-btn">Find Best Price</button>
+              </div>
+            </div>
+
+            <a
+              href="https://cars.usnews.com/cars-trucks/rankings/compact-suvs"
+              class="btn"
+              >Read More</a
+            >
+          </div>
+
+          <div class="blog-box">
+            <img src="image/blog-3.jpg" alt="Blog 3" class="blog-img" />
+            <h3>Maintenance Tips for Your Car</h3>
+            <p>
+              Keep your car in top shape with these essential maintenance tips
+              and tricks for every vehicle owner.
+            </p>
+
+            <section class="blog-post">
+              <h1 class="heading">13 Car Maintenance Tips to Save You Money</h1>
+              <article>
+                <p>
+                  Regular maintenance is key to keeping your car running
+                  smoothly and avoiding costly repairs. Here are 13 essential
+                  tips that can help save you money in the long run by extending
+                  the life of your vehicle:
+                </p>
+
+                <h2>1. Check your spare tire</h2>
+                <p>
+                  Keep your backup tire inflated to avoid unexpected surprises
+                  when you need it most. <strong>Maintenance tip:</strong> Test
+                  the air pressure of your driving tires and your spare tire
+                  once a month.
+                </p>
+
+                <h2>2. Change the oil</h2>
+                <p>
+                  Changing your car’s oil regularly can save you from costly
+                  engine repairs. <strong>Maintenance tip:</strong> Change the
+                  oil every 5,000 miles or as per your car manufacturer's
+                  recommendations.
+                </p>
+
+                <h2>3. Keep the battery clean</h2>
+                <p>
+                  Corrosion on the battery terminals can cause malfunctions.
+                  Keep them clean to avoid battery issues.
+                  <strong>Maintenance tip:</strong> Test your battery twice a
+                  year and inspect it for corrosion.
+                </p>
+
+                <h2>4. Replace the brake pads</h2>
+                <p>
+                  Don’t ignore squeaky brakes. Replacing brake pads on time can
+                  prevent more expensive repairs.
+                  <strong>Maintenance tip:</strong> Check the brake fluid when
+                  you change the oil, and replace the brake system if necessary.
+                </p>
+
+                <h2>5. Replace your cabin air filter</h2>
+                <p>
+                  A clean cabin air filter keeps pollutants out and prevents AC
+                  issues. <strong>Maintenance tip:</strong> Change your cabin
+                  air filter every 12 months or 12,000 miles.
+                </p>
+
+                <h2>6. Get new windshield wipers</h2>
+                <p>
+                  Visibility is crucial for safe driving. Replace your
+                  windshield wipers when they start to streak or skip.
+                  <strong>Maintenance tip:</strong> Check and replace your
+                  windshield wipers at the change of each season.
+                </p>
+
+                <h2>7. Rotate your tires</h2>
+                <p>
+                  Regular tire rotation ensures even wear and extends the life
+                  of your tires. <strong>Maintenance tip:</strong> Rotate your
+                  tires every 3,000–5,000 miles.
+                </p>
+
+                <h2>8. Check the suspension system</h2>
+                <p>
+                  Suspension issues can lead to a bumpy ride and other problems.
+                  <strong>Maintenance tip:</strong> Check the shocks and the
+                  entire suspension system every 15,000–30,000 miles.
+                </p>
+
+                <h2>9. Check your coolant</h2>
+                <p>
+                  Coolant prevents corrosion and ensures the radiator, water
+                  pump, and other systems work efficiently.
+                  <strong>Maintenance tip:</strong> Check your coolant twice a
+                  year—once before summer and again before winter.
+                </p>
+
+                <h2>10. Check your spark plugs</h2>
+                <p>
+                  Worn spark plugs can cause engine issues. Replacing them is an
+                  inexpensive fix compared to engine overhauls.
+                  <strong>Maintenance tip:</strong> Check and change the spark
+                  plugs every 30,000 miles.
+                </p>
+
+                <h2>11. Inspect belts and hoses</h2>
+                <p>
+                  Worn belts and hoses can cause significant damage to your
+                  engine.
+                  <strong>Maintenance tip:</strong> Replace your timing belt
+                  every 60,000 miles and serpentine belt every 40,000 miles.
+                  Replace hoses every four years.
+                </p>
+
+                <h2>12. Check your lights</h2>
+                <p>
+                  Faulty headlights, turn signals, and brake lights can lead to
+                  accidents and tickets. <strong>Maintenance tip:</strong> Check
+                  your lights monthly with the help of a friend to ensure
+                  they’re functioning correctly.
+                </p>
+
+                <h2>13. Do the emissions inspection</h2>
+                <p>
+                  Keep up with emissions inspections to ensure your car is
+                  roadworthy and to avoid fines.
+                  <strong>Maintenance tip:</strong> Take your car for inspection
+                  once a year and follow your local regulations.
+                </p>
+
+                <h2 class="bonus-tip-heading">
+                  Bonus Tip: Follow Our Car Guide
+                </h2>
+                <p class="bonus-tip-paragraph">
+                  For more detailed information about buying, selling, and
+                  maintaining your car, check out our comprehensive
+                  <a href="#">Pluto Motors Car Guide</a>.
+                </p>
+              </article>
+            </section>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="footer-content">
+        <p>&copy; 2023 Pluto Motors. All Rights Reserved.</p>
+        <div class="social-links">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </section>
+    </footer>
+
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </body>
+</html>
